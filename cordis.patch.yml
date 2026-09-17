@@ -1,0 +1,8 @@
+# dsh-prompt-optimizer bundle patch
+# Insert this plugin into the profile composition: host half registers the
+# /prompt-optimizer Connection RPC channel; client half registers the
+# conversation.input.right toggle.
+
+- insert:
+    - id: prompt-optimizer
+      name: dsh-prompt-optimizer

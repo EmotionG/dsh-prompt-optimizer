@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build outputs are committed deliberately (the profile consumes lib/ directly);
+# only build scratch is ignored.
+*.tsbuildinfo
+
+# Package-manager state lives in the consumer profile, not here.
+.pnpm-store/
+
+# Editor/OS noise
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# pnpm approval scratch
+.npmrc.bak
